@@ -32,16 +32,16 @@ variants=(
 )
 
 archis=(
-	amd64
+	#amd64
 	#arm32v5
 	#arm32v6
-	#arm32v7
+	arm32v7
 	#arm64v8
-	i386
+	#i386
 	#ppc64le
 )
 
-min_version='8.0'
+min_version='12.0'
 
 
 # version_greater_or_equal A B returns whether A >= B
